@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-border">
+            <div class="calculator">
+                <div class="display">
+                    <input type="text" id="display" disabled>
+                </div>
+                <div class="rows">
+                    <div class="row">
+                        <button class="btn" id="clear-button" data-key="Escape">AC</button>
+                        <button class="btn" id="backspace-button" data-key="Backspace"><--</button>
+                        <button class="btn" id="sign-button" data-key="s">+/-</button>
+                        <button class="btn operator" id="btn-add" data-key="+">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn digit-btn" id="btn-7" data-key="7">7</button>
+                        <button class="btn digit-btn" id="btn-8" data-key="8">8</button>
+                        <button class="btn digit-btn" id="btn-9" data-key="9">9</button>
+                        <button class="btn operator" id="btn-subtract" data-key="-">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn digit-btn" id="btn-4" data-key="4">4</button>
+                        <button class="btn digit-btn" id="btn-5" data-key="5">5</button>
+                        <button class="btn digit-btn" id="btn-6" data-key="6">6</button>
+                        <button class="btn operator" id="btn-divide" data-key="/">/</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn digit-btn" id="btn-1" data-key="1">1</button>
+                        <button class="btn digit-btn" id="btn-2" data-key="2">2</button>
+                        <button class="btn digit-btn" id="btn-3" data-key="3">3</button>
+                        <button class="btn operator" id="btn-multiply" data-key="*">x</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn digit-btn" id="btn-0" data-key="0">0</button>
+                        <button class="btn digit-btn" id="btn-decimal" data-key=".">.</button>
+                        <button class="btn operator" id="btn-equals" data-key="Enter">=</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
