@@ -13,7 +13,15 @@ document.addEventListener('keydown', (e) => {
     if (!validKeys.includes(key)) return;
     const button = document.querySelector(`button[data-key="${key}"]`);
     if (button) {
+        button.classList.add('pressed');
         button.click();
+    }
+});
+
+document.addEventListener('keyup', (e) => {
+    const button = document.querySelector(`button[data-key="${e.key}"]`);
+    if (button) {
+        button.classList.remove('pressed');
     }
 });
 
