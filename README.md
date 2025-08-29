@@ -5,7 +5,6 @@ A sleek, responsive calculator built with HTML, CSS, and vanilla JavaScript — 
 ## 🔗 Live Demo
 
 [👉 Try it here](https://tjust032.github.io/odin-calculator/)  
-*(Replace this with your actual hosted link, e.g., GitHub Pages, Netlify, or Vercel)*
 
 ---
 
